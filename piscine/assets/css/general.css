@@ -1,0 +1,65 @@
+/**
+ * Quelques ajouts pour compléter le template bootstrap utilisé
+ */
+#actuel{
+  display:none;
+}
+
+#new{
+  display:none;
+}
+
+#newRecherche{
+  display:none;
+}
+
+#newCode{
+  display:none;
+}
+
+#newAnnee{
+  display:none;
+}
+
+.gras{
+	font-weight:bold;
+}
+
+@keyframes masuperanimation {
+    0% {
+        transform: translateY(1500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.test
+{
+    animation: masuperanimation 1.5s;
+}
+
+.test2
+{
+	animation: masuperanimation 3s;
+}
+
+.test3
+{
+	animation: masuperanimation 3.5s;
+
+}
+
+.test4
+{
+	animation: masuperanimation 4s;
+}
+
+#promo1,#promo2{
+  width:95px;
+}
+
+#depart{
+  width:280px;
+}
